@@ -1,0 +1,155 @@
+/*Основные параметры лендинга
+Цвета
+Белый: #fff
+Полупрозрачный белый: #d7ccc0
+Светлый: #f5f4f0
+Основной: #fe8a02
+Основной тёмный: #42413c
+Тёмный: #2a2626
+Полупрозрачный тёмный: #908d8b
+Коричневый: #b09a81
+Синий: #1085c5
+Шрифты
+В качестве основного шрифта используется Open Sans
+Для заголовков используется шрифт Neucha
+Размер шрифта: 16px
+Межстрочный интервал: 1.6em
+Цвет шрифта: #2A2626
+Заголовки
+Межстрочный интервал заголовков: 1.2em
+Размер заголовка первого уровня: 72px
+Размер заголовка второго уровня: 60px
+Размер заголовка третьего уровня: 34px
+
+Секции
+Ограничение по ширине контента: 1110px
+Выравнивание по центру
+Отступы по 100 пикселей сверху и снизу
+*/
+@font-face {
+    font-weight: 300;
+    font-family: "Light";
+    src: url("/fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "Regular";
+    src: url("/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: "Bold";
+    src: url("/fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Neucha-Regular";
+
+    src: url("/fonts/Neucha-Regular.ttf");
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    color: #2A2626;
+    font-size: 16px;
+    line-height: 1.6em;
+    background-color: #f5f4f0;
+
+}
+
+.background-pattern {
+    position: relative;
+
+}
+
+.background-pattern::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('img/background.png') no-repeat center center;
+    background-size: cover;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.header-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 100px;
+    max-width: 1110px;
+    margin-left: 165px;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+h1 {
+
+    font-family: "Neucha-Regular", cursive;
+    line-height: 1.2em;
+    font-size: 72px;
+    font-weight: 400;
+    color: #2A2626;
+    margin: 0;
+
+}
+
+.highlight {
+    color: #fe8a02;
+}
+
+.text-columns {
+    display: flex;
+    gap: 30px;
+    margin-top: -45px;
+}
+
+.text-column {
+    flex: 1;
+}
+
+.text-column:nth-child(2) p {
+    margin-bottom: 13px;
+}
+
+.text-column:nth-child(2) p:last-child {
+    margin-bottom: 0;
+}
+
+.btn {
+    background: #fe8a02;
+    color: white;
+    border: none;
+    padding: 15px 23px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 27px;
+}
+
+.btn a {
+    background: #fe8a02;
+    color: white;
+    text-decoration: none;
+}
+
+
+.image-container img {
+    height: 525px;
+    margin-left: -280px;
+    margin-top: -45px;
+}
+
+.header-text {
+    margin-left: 165px;
+    max-width: 1110px;
+}
