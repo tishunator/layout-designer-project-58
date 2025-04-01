@@ -66,12 +66,17 @@ body {
     margin-left: 165px;
     max-width: 1110px;
 }
+.general-section1{
+    height: 914px;
+    margin-left: 165px;
+    max-width: 1110px;
+}
 .background-pattern {
     position: relative;
 
 }
 
-.background-pattern::before {
+.general-section1:before {
     content: "";
     position: absolute;
     top: 0;
@@ -183,7 +188,7 @@ h1 {
     position: relative;
     text-align: center;
     margin: 0 auto;
-    padding-bottom: 50px;
+   
 }
 video{
 
@@ -194,17 +199,206 @@ video{
   
 }
 .section-2{
-    
+    margin-left: 165px;
+    max-width: 1110px;
     padding-top: 100px;
+  
    
 }
-.background-section-2::after {
+.background-section-3{
+    background-color: #42413C;
+    margin-top: -100px;
+    height: 994px;
+}
+.container {
+    display: flex;
+    padding-top: 160px;
+    
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 20px;
+    margin-top: 40px;
+  
+}
+.card {
+   
+    
+    background: white;
+    color: #2A2626;
+    text-decoration: none;
+    
+    width: 350px;
+    
+    box-sizing: border-box;
+    padding: 24px;
+    
+}
+.section-title{
+    font-family: "Neucha-Regular", cursive;
+    font-size: 52px;
+    line-height: 120%;
+    width: 350px;
+    height: 323px;
+    color: white;
+}
+.card-number {
+    font-size: 64px;
+    font-family: "Neucha-Regular", cursive;
+    margin-top: 24px;
+    margin-bottom: 55px;
+    
+}
+.card-title {
+    color: #fe8a02;
+   
+    margin-bottom: 10px;
+    font-family: "Neucha-Regular", cursive;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 120%;
+  
+  
+}
+.small {
+   height: 323px;
+   
+}
+.large {
+   height: 348px;
+}
+
+.head {
+    
+    display: flex;
+    gap: 30px;
+    
+}
+.background-section-4{
+    margin-top: 80px;
+   position: relative;
+    height: 994px;
+}
+
+.right-block p{
+    font-family: "Neucha-Regular", cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #908D8B;
+}
+.right-block .zag{
+    font-family: "Neucha-Regular", cursive;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 40.8px;
+    color: #2A2626;
+}
+.head img {
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+h2 {
+
+    font-family: "Neucha-Regular", cursive;
+    line-height: 1.2em;
+    font-size: 60px;
+    font-weight: 400;
+    color: #2A2626;
+   margin-top: -23px;
+   margin-bottom: -6px;
+   
+
+}
+.container-ikea {
+    display: flex;
+    gap: 30px;
+    margin-top: -16px;
+    
+}
+h4{
+    font-family: bold;
+    font-size: 14px;
+    line-height: 16.8px;
+    background-color: #B09A81;
+    color: white;
+    padding: 5px;
+    margin-top: 100px;
+}
+.container-ikea p {
+    flex: 1;
+}
+.background-section-5{
+    position: relative;
+    margin-top: -162px;
+  
+}
+.general-section2{
+    height: 914px;
+    margin-left: 165px;
+    max-width: 1110px;
+   
+}
+
+.general-section2:before {
     content: "";
     position: absolute;
-    bottom: 105px;
+    top: 0;
     left: 0;
     width: 100%;
-    height: 153px;
-    background: #42413C; 
+    height: 100%;
+    background: url('img/background.png') no-repeat center center ;
+    background-size: cover;
+    opacity: 0.1;
     z-index: -1;
+   
+}
+.general-section3{
+    height: 914px;
+    margin-left: 165px;
+    max-width: 1110px;
+   
+}
+
+.general-section3:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: darkblue;
+    
+   
+   
+   
+}
+.head2{
+    display: flex;
+    gap: 30px;
+    
+}
+.right-block{
+    margin-top: 77px;
+}
+.head2 img {
+    margin-top: 100px;
+}
+.whiteh{
+    background-color: white;
+    color:#B09A81 ;
+    
+}
+.background-section-6{
+    position: relative;
+    margin-top: -60px;
+}
+.head3{
+    display: flex;
+    gap: 30px;
+}
+.head3 img {
+    margin-top: 30px;
 }
