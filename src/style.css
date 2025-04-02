@@ -132,6 +132,8 @@ h3{
     height: 525px;
     margin-top: 55px;
     margin-left: -280px;
+    position: relative;
+    z-index: -1;
 }
 .header-text{
     display: flex;
