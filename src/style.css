@@ -59,8 +59,8 @@ body {
     font-size: 16px;
     line-height: 1.6em;
     background-color: #f5f4f0;
-  width: 1440px;
-   
+    width: 1440px;
+
 }
 
 h1 {
@@ -70,28 +70,32 @@ h1 {
     font-size: 72px;
     font-weight: 400;
     color: #2A2626;
- 
+
 
 }
-h2{
+
+h2 {
     font-family: "Neucha-Regular", cursive;
     line-height: 1.2em;
     font-size: 60px;
     font-weight: 400;
-    color: #2A2626; 
+    color: #2A2626;
 }
-h3{
+
+h3 {
     font-family: "Neucha-Regular", cursive;
     line-height: 1.2em;
     font-size: 34px;
     font-weight: 400;
-    color: #2A2626;   
+    color: #2A2626;
 }
+
 .background-pattern {
     position: relative;
-   
+
 
 }
+
 .background-pattern::before {
     content: "";
     position: absolute;
@@ -104,48 +108,57 @@ h3{
     opacity: 0.1;
     z-index: -1;
 }
-.section-size-left-margin-pT-pB{
+
+.section-size-left-margin-pT-pB {
     max-width: 1100px;
     width: 100%;
     margin-left: 165px;
     padding-right: 165px;
     padding-bottom: 100px;
     overflow-x: hidden;
-    }
-    
-    .highlight {
-        color: #fe8a02;
-    }
-    .nowrap {
-        white-space: nowrap;
-    }
-    .margin-0{
-        margin:0;
-        z-index: 1;
-        padding-top: 100px;
-    }
+}
 
-.header-name-img-flex{
+
+
+.highlight {
+    color: #fe8a02;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.margin-0 {
+    margin: 0;
+    z-index: 1;
+    padding-top: 100px;
+}
+
+.header-name-img-flex {
     display: flex;
 }
-.img-header{
+
+.img-header {
     height: 525px;
     margin-top: 55px;
     margin-left: -280px;
     position: relative;
     z-index: -1;
 }
-.header-text{
+
+.header-text {
     display: flex;
     gap: 30px;
     margin-top: -45px;
 
-    
+
 }
+
 .text-column {
     flex: 1;
     min-width: 540px;
 }
+
 .btn {
     background: #fe8a02;
     color: white;
@@ -155,14 +168,58 @@ h3{
     font-weight: bold;
     margin-top: 22px;
     line-height: 160%;
- 
+
 }
 
 .btn a {
-  color: white;
+    color: white;
     text-decoration: none;
 }
 
+.video-container {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+
+}
+video {
+
+    width: 919px;
+    height: 517px;
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+.bg-white {
+   position: relative;
+}
+.bg-white ::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  background-color: white;
+  z-index: -1;
+ 
+}
+.center {
+    text-align: center;
+    margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+.section2-size-left-margin-pT-pB {
+    max-width: 1100px;
+    width: 100%;
+ 
+    padding-bottom: 100px;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+.padding-h2-72px{
+    margin: 0;
+    padding-top: 100px;
+}
 
 
 /*Основные параметры лендинга
