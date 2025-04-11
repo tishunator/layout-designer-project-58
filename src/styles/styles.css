@@ -3,24 +3,20 @@
   font-family: "Open Sans";
   src: url("/..fonts/OpenSans-Light.ttf");
  }
- 
  @font-face {
   font-weight: 400;
   font-family: "Open Sans";
   src: url("../fonts/OpenSans-Regular.ttf");
  }
- 
  @font-face {
   font-weight: 700;
   font-family: "Open Sans";
   src: url("../fonts/OpenSans-Bold.ttf");
  }
- 
  @font-face {
   font-family: "Neucha-Regular";
   src: url("../fonts/Neucha-Regular.ttf");
  }
- 
  body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
@@ -31,11 +27,9 @@
   line-height: 1.6em;
   background-color: #f5f4f0;
  }
- 
  .overflow-hidden {
   overflow-x: hidden;
  }
- 
  .margin-bottom-0 {
   margin-bottom: 0;
  }
