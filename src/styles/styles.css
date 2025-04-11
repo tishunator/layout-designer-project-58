@@ -26,7 +26,7 @@ body {
   margin: 0;
   padding: 0;
   font-weight: 400;
-  color: #2A2626;
+  color: #2a2626;
   font-size: 16px;
   line-height: 1.6em;
   background-color: #f5f4f0;
@@ -41,31 +41,31 @@ body {
 }
 
 h1 {
-  font-family: "Neucha-Regular", cursive;
+  font-family: Neucha-Regular, cursive;
   line-height: 1.2em;
   font-size: 72px;
   font-weight: 400;
-  color: #2A2626;
+  color: #2a2626;
 }
 
 h2 {
-  font-family: "Neucha-Regular", cursive;
+  font-family: Neucha-Regular, cursive;
   line-height: 1.2em;
   font-size: 60px;
   font-weight: 400;
-  color: #FE8A02;
+  color: #fe8a02;
 }
 
 .dark-color {
-  color: #2A2626;
+  color: #2a2626;
 }
 
 h3 {
-  font-family: "Neucha-Regular", cursive;
+  font-family: Neucha-Regular, cursive;
   line-height: 1.2em;
   font-size: 34px;
   font-weight: 400;
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .background-pattern {
@@ -234,7 +234,7 @@ h3 {
 
 .card {
   background: #f5f4f0;
-  color: #2A2626;
+  color: #2a2626;
   text-decoration: none;
   flex-basis: 350px;
   box-sizing: border-box;
@@ -249,7 +249,7 @@ h3 {
 .card-title {
   color: #fe8a02;
   margin-bottom: 16px;
-  font-family: "Neucha-Regular", cursive;
+  font-family: Neucha-Regular, cursive;
   font-size: 34px;
   font-weight: 400;
   line-height: 120%;
@@ -261,7 +261,7 @@ h3 {
 }
 
 .section-title {
-  font-family: "Neucha-Regular", cursive;
+  font-family: Neucha-Regular, cursive;
   font-size: 52px;
   line-height: 1.2em;
   flex-basis: 350px;
@@ -270,27 +270,27 @@ h3 {
 
 .card-number {
   font-size: 64px;
-  font-family: "Neucha-Regular", cursive;
+  font-family: Neucha-Regular, cursive;
   line-height: 1;
   margin-bottom: 40px;
 }
 
 .cognitive-distortions-on-white {
-  font-family: "Neucha-Regular", cursive;
+  font-family: Neucha-Regular, cursive;
   font-size: 24px;
-  color: #908D8B;
-  line-height: 28.8px
+  color: #908d8b;
+  line-height: 28.8px;
 }
 
 .cognitive-distortions-on-brown {
-  font-family: "Neucha-Regular", cursive;
+  font-family: Neucha-Regular, cursive;
   font-size: 24px;
   color: #D7CCC0;
   line-height: 28.8px
 }
 
 .cognitive-distortions-sent {
-  font-family: "Neucha-Regular", cursive;
+  font-family: Neucha-Regular, cursive;
   font-size: 34px;
   line-height: 40.8px;
   padding-top: 30px;
@@ -300,7 +300,7 @@ h4 {
   font-size: 14px;
   line-height: 16.8px;
   color: white;
-  background-color: #B09A81;
+  background-color: #b09a81;
   padding-top: 5px;
   padding-left: 10px;
   padding-bottom: 5px;
@@ -315,7 +315,7 @@ h4 {
 }
 
 .background-brown {
-  background-color: #B09A81;
+  background-color: #b09a81;
   z-index: 0;
 }
 
@@ -328,11 +328,11 @@ h4 {
 }
 
 .brown-color {
-  color: #B09A81;
+  color: #b09a81;
 }
 
 .g-footer {
-  background-color: #42413C;
+  background-color: #42413c;
 }
 
 .footer-text {
@@ -341,19 +341,19 @@ h4 {
   padding-bottom: 55px;
 }
 
-.subscribe__form {
+.subscribe-form {
   flex: 1;
   margin-top: 38px;
   margin-left: 30px;
 }
 
-.subscribe__form label {
+.subscribe-form label {
   font-size: 18px;
   line-height: 160%;
   color: white;
 }
 
-.subscribe__form input {
+.subscribe-form input {
   background-color: white;
   height: 50px;
   width: 418px;
@@ -387,7 +387,7 @@ h4 {
 }
 
 button {
-  background-color: #FE8A02;
+  background-color: #fe8a02;
   width: 70px;
   height: 50px;
   position: absolute;
