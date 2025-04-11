@@ -1,23 +1,23 @@
-@font-face {
+@font-face{
   font-weight: 300;
   font-family: "Open Sans";
   src: url("/..fonts/OpenSans-Light.ttf");
  }
- @font-face {
+ @font-face{
   font-weight: 400;
   font-family: "Open Sans";
   src: url("../fonts/OpenSans-Regular.ttf");
  }
- @font-face {
+ @font-face{
   font-weight: 700;
   font-family: "Open Sans";
   src: url("../fonts/OpenSans-Bold.ttf");
  }
- @font-face {
-  font-family: "Neucha-Regular";
+ @font-face{
+  font-family: Neucha-Regular;
   src: url("../fonts/Neucha-Regular.ttf");
  }
- body {
+ body{
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
@@ -27,46 +27,40 @@
   line-height: 1.6em;
   background-color: #f5f4f0;
  }
- .overflow-hidden {
+ .overflow-hidden{
   overflow-x: hidden;
  }
- .margin-bottom-0 {
+ .margin-bottom-0{
   margin-bottom: 0;
  }
- 
- h1 {
+ h1{
   font-family: "Neucha-Regular", cursive;
   line-height: 1.2em;
   font-size: 72px;
   font-weight: 400;
   color: #2A2626;
  }
- 
- h2 {
+ h2{
   font-family: "Neucha-Regular", cursive;
   line-height: 1.2em;
   font-size: 60px;
   font-weight: 400;
   color: #FE8A02;
  }
- 
- .dark-color {
+ .dark-color{
   color: #2A2626;
  }
- 
- h3 {
+ h3{
   font-family: "Neucha-Regular", cursive;
   line-height: 1.2em;
   font-size: 34px;
   font-weight: 400;
   color: #2A2626;
  }
- 
- .background-pattern {
+ .background-pattern{
   position: relative;
  }
- 
- .background-pattern::before {
+ .background-pattern::before{
   content: "";
   position: absolute;
   top: 0;
@@ -78,62 +72,50 @@
   opacity: 0.1;
   z-index: -1;
  }
- 
- .container {
+ .container{
   width: 1110px;
   margin: 0 auto;
   position: relative;
  }
- 
- .padding-top-100 {
+ .padding-top-100{
   padding-top: 100px;
  }
- 
- .padding-bottom-100 {
+ .padding-bottom-100{
   padding-bottom: 100px;
  }
- 
- .highlight {
+ .highlight{
   color: #fe8a02;
  }
- 
- .nowrap {
+ .nowrap{
   white-space: nowrap;
  }
- 
  .margin-0 {
   margin: 0;
   z-index: 1;
  }
- 
- .d-flex {
+ .d-flex{
   display: flex;
  }
- 
- .flex-wrap {
+ .flex-wrap{
   flex-wrap: wrap;
  }
- 
- .img-header {
+ .img-header{
   position: absolute;
   height: 525px;
   top: 55px;
   right: -270px;
   z-index: -1;
  }
- 
- .header-text {
+ .header-text{
   display: flex;
   margin-top: 185px;
   gap: 30px;
  }
- 
- .text-column {
+ .text-column{
   flex: 1;
   min-width: 540px;
  }
- 
- .btn {
+ .btn{
   display: inline-block;
   background: #fe8a02;
   color: white;
@@ -145,38 +127,31 @@
   line-height: 160%;
   text-decoration: none;
  }
- 
- .btn a {
+ .btn a{
   color: white;
   text-decoration: none;
  }
- 
- .video-container {
+ .video-container{
   position: relative;
   text-align: center;
  }
- 
- .video-container img {
+ .video-container img{
   display: block;
   width: 919px;
   height: 517px;
   margin-left: auto;
   margin-right: auto;
  }
- 
- .shadow {
+ .shadow{
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
  }
- 
- .bg-white {
+ .bg-white{
   position: relative;
  }
- 
- .padding-top-200 {
+ .padding-top-200{
   padding-top: 200px;
  }
- 
- .bg-white::before {
+ .bg-white::before{
   content: "";
   position: absolute;
   top: 0;
@@ -187,16 +162,13 @@
   z-index: -1;
   background-size: cover;
  }
- 
- .margin-top {
+ .margin-top{
   margin-top: -200px;
  }
- 
- .bg-grey {
+ .bg-grey{
   position: relative;
  }
- 
- .bg-grey::before {
+ .bg-grey::before{
   content: "";
   position: absolute;
   top: 0;
@@ -207,26 +179,21 @@
   z-index: -1;
   background-size: cover;
  }
- 
- .center {
+ .center{
   text-align: center;
  }
- 
- .margin-30 {
+ .margin-30{
   margin-top: 30px;
   margin-bottom: 30px;
  }
- 
- .gap {
+ .gap{
   column-gap: 30px;
   row-gap: 20px;
  }
- 
- .gap-30 {
+ .gap-30{
   gap: 30px;
  }
- 
- .card {
+ .card{
   background: #f5f4f0;
   color: #2A2626;
   text-decoration: none;
@@ -234,13 +201,11 @@
   box-sizing: border-box;
   padding: 24px;
  }
- 
- .card:hover {
+ .card:hover{
   background-color: #fe8a02;
   color: white;
  }
- 
- .card-title {
+ .card-title{
   color: #fe8a02;
   margin-bottom: 16px;
   font-family: "Neucha-Regular", cursive;
@@ -248,49 +213,42 @@
   font-weight: 400;
   line-height: 120%;
  }
- 
- .card:hover .card-title {
+ .card:hover .card-title{
   background-color: #fe8a02;
   color: white;
  }
- 
- .section-title {
+ .section-title{
   font-family: "Neucha-Regular", cursive;
   font-size: 52px;
   line-height: 1.2em;
   flex-basis: 350px;
   color: white;
  }
- 
- .card-number {
+ .card-number{
   font-size: 64px;
   font-family: "Neucha-Regular", cursive;
   line-height: 1;
   margin-bottom: 40px;
  }
- 
- .cognitive-distortions-on-white {
+ .cognitive-distortions-on-white{
   font-family: "Neucha-Regular", cursive;
   font-size: 24px;
   color: #908D8B;
   line-height: 28.8px
  }
- 
- .cognitive-distortions-on-brown {
+ .cognitive-distortions-on-brown{
   font-family: "Neucha-Regular", cursive;
   font-size: 24px;
   color: #D7CCC0;
   line-height: 28.8px
  }
- 
- .cognitive-distortions-sent {
+ .cognitive-distortions-sent{
   font-family: "Neucha-Regular", cursive;
   font-size: 34px;
   line-height: 40.8px;
   padding-top: 30px;
  }
- 
- h4 {
+ h4{
   font-size: 14px;
   line-height: 16.8px;
   color: white;
@@ -299,70 +257,56 @@
   padding-left: 10px;
   padding-bottom: 5px;
  }
- 
- .margin-top-100 {
+ .margin-top-100{
   margin-top: 100px;
  }
- 
- .padding-top-20 {
+ .padding-top-20{
   padding-top: 20px;
  }
- 
- .background-brown {
+ .background-brown{
   background-color: #B09A81;
   z-index: 0;
  }
- 
- .white-color {
+ .white-color{
   color: white;
  }
- 
- .white-bg {
+ .white-bg{
   background-color: white;
  }
- 
- .brown-color {
+ .brown-color{
   color: #B09A81;
  }
- 
- .g-footer {
+ .g-footer{
   background-color: #42413C;
  }
- 
- .footer-text {
+ .footer-text{
   flex: 1;
   padding-top: 55px;
   padding-bottom: 55px;
  }
- 
- .subscribe__form {
+ .subscribe__form{
   flex: 1;
   margin-top: 38px;
   margin-left: 30px;
  }
- 
- .subscribe__form label {
+ .subscribe__form label{
   font-size: 18px;
   line-height: 160%;
   color: white;
  }
- 
- .subscribe__form input {
+ .subscribe__form input{
   background-color: white;
   height: 50px;
   width: 418px;
  }
- 
- .input-group {
+ .input-group{
   margin-top: 9px;
  }
- 
- .input-group input::placeholder {
+ .input-group input::placeholder{
   color: #757575;
   font-size: 13.1px;
  }
- 
- .input-group input {
+ .input-group input{
   box-sizing: border-box;
   border: none;
   padding-left: 15px;
@@ -370,28 +314,23 @@
   padding-top: 0;
   padding-bottom: 0;
  }
- 
- .rules {
+ .rules{
   font-size: 12px;
  }
- 
- .img-send {
+ .img-send{
   height: 50px;
   width: 70px;
  }
- 
- button {
+ button{
   background-color: #FE8A02;
   width: 70px;
   height: 50px;
   position: absolute;
  }
- 
- .padding-left-55px {
+ .padding-left-55px{
   padding-left: 55px;
  }
- 
- .contact {
+ .contact{
   padding-top: 60px;
   font-size: 14px;
   text-align: center;
