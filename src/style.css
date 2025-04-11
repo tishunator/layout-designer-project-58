@@ -186,7 +186,9 @@ h3 {
 .bg-white {
     position: relative;
 }
-
+.padding-top-200{
+    padding-top: 200px;
+}
 .bg-white::before {
     content: "";
     position: absolute;
