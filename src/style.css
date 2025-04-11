@@ -208,7 +208,7 @@ h3 {
 .bg-grey::before{
         content: "";
         position: absolute;
-        top: -100px;
+        top: 0;
         padding-bottom: 100px;
         left: 0;
         width: 100%;
