@@ -32,7 +32,7 @@ body {
   background-color: #f5f4f0;
 }
 
-.overflow-hidden {
+.overflow-x-hidden {
   overflow-x: hidden;
 }
 
@@ -150,14 +150,10 @@ h3 {
   font-size: 16px;
   font-weight: bold;
   margin-top: 40px;
-  line-height: 160%;
   text-decoration: none;
 }
 
-.btn a {
-  color: white;
-  text-decoration: none;
-}
+
 
 .video-container {
   position: relative;
@@ -226,7 +222,7 @@ h3 {
   margin-bottom: 30px;
 }
 
-.gap {
+.gap-column-20-row-30 {
   column-gap: 30px;
   row-gap: 20px;
 }
@@ -256,7 +252,6 @@ h3 {
   font-family: Neucha-Regular, cursive;
   font-size: 34px;
   font-weight: 400;
-  line-height: 120%;
 }
 
 .card:hover .card-title {
@@ -264,7 +259,7 @@ h3 {
   color: white;
 }
 
- h2.section-title   {
+h2.section-title {
   font-family: Neucha-Regular, cursive;
   font-size: 52px;
   line-height: 1.2em;
@@ -279,17 +274,9 @@ h3 {
   margin-bottom: 40px;
 }
 
-.cognitive-distortions-on-white {
+.cognitive-distortions {
   font-family: Neucha-Regular, cursive;
   font-size: 24px;
-  color: #908d8b;
-  line-height: 28.8px;
-}
-
-.cognitive-distortions-on-brown {
-  font-family: Neucha-Regular, cursive;
-  font-size: 24px;
-  color: #d7ccc0;
   line-height: 28.8px;
 }
 
@@ -300,9 +287,23 @@ h3 {
   padding-top: 30px;
 }
 
-h4 {
+.h3-white-bg-brown-color {
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 16.8px;
+  font-weight: 700;
+  color: #b09a81;
+  background-color: white;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.h3-brown-bg-white-color {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 700;
   color: white;
   background-color: #b09a81;
   padding-top: 5px;
@@ -327,12 +328,16 @@ h4 {
   color: white;
 }
 
-.white-bg {
-  background-color: white;
+.white-color-50 {
+  color: #D7CCC0;
 }
 
 .brown-color {
   color: #b09a81;
+}
+
+.white-bg {
+  background-color: white;
 }
 
 .g-footer {
@@ -353,7 +358,7 @@ h4 {
 
 .subscribe-form label {
   font-size: 18px;
-  line-height: 160%;
+  /*line-height: 160%;*/
   color: white;
 }
 
@@ -390,11 +395,12 @@ h4 {
   width: 70px;
 }
 
-button {
+.my-button {
   background-color: #fe8a02;
   width: 70px;
   height: 50px;
   position: absolute;
+  cursor: pointer
 }
 
 .padding-left-55px {
@@ -405,4 +411,12 @@ button {
   padding-top: 60px;
   font-size: 14px;
   text-align: center;
+}
+
+footer a {
+  color: #1085C5;
+}
+
+.rules a {
+  color: white;
 }
